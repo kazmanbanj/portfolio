@@ -108,13 +108,16 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
-        <p>© 2020 | Portfolio created by Banjoko Kazeem</p>
+        <p>© <span id="year"></span> | Portfolio created by Banjoko Kazeem</p>
       </div>
     </div>
   </div>
 </footer>
 
 <script>
+  date = new Date();
+  year = date.getFullYear();
+  document.getElementById("year").innerHTML = year;
   document.addEventListener("DOMContentLoaded", function (event) {
      navActivePage();
   });
