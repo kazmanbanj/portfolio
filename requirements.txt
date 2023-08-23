@@ -1,7 +1,7 @@
-Click
-Flask
-itsdangerous
-Jinja2
-MarkupSafe
-Werkzeug
-uwsgi
+# Click
+# Flask
+# itsdangerous
+# Jinja2
+# MarkupSafe
+# Werkzeug
+# uwsgi
